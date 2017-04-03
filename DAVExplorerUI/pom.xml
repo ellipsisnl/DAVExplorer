@@ -68,22 +68,24 @@
 		</plugins>
 	</build>
 	<dependencies>
-	<dependency>
-		<groupId>javax</groupId>
-		<artifactId>swing</artifactId>
-		<version>1.0</version>
-		<scope>system</scope>
-		<systemPath>${project.basedir}/src/main/resources/swingall.jar</systemPath>
-	</dependency>
+		<!--  
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>swing</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/swingall.jar</systemPath>
+		</dependency>
+		-->
 		<dependency>
 			<groupId>DAVExplorer</groupId>
 			<artifactId>HTTPClient</artifactId>
-			<version>${project.version}</version>
+			<version>0.3.3</version>
 		</dependency>
 		<dependency>
 			<groupId>DAVExplorer</groupId>
 			<artifactId>MSXMLParser</artifactId>
-			<version>${project.version}</version>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 </project>
