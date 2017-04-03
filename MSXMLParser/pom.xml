@@ -4,8 +4,9 @@
 	<parent>
 		<groupId>DAVExplorer</groupId>
 		<artifactId>DAVExplorer</artifactId>
-		<version>1.0.0</version>
+		<version>0.92.0-SNAPSHOT</version>
 	</parent>
 	<artifactId>MSXMLParser</artifactId>
+		<version>1.0.0</version>
 	<build />
 </project>
